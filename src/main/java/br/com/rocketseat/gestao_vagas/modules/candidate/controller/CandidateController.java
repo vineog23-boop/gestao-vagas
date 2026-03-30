@@ -1,6 +1,8 @@
-package br.com.rocketseat.gestao_vagas.modules.candidate.Controller;
+package br.com.rocketseat.gestao_vagas.modules.candidate.controller;
 
 import br.com.rocketseat.gestao_vagas.modules.candidate.CandidateEntity;
+import br.com.rocketseat.gestao_vagas.modules.candidate.repository.CandidateRepository;
+import br.com.rocketseat.gestao_vagas.modules.candidate.service.CandidateService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,11 +13,19 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class CandidateController {
 
+    private final CandidateRepository candidateRepository;
+    CandidateService candidateService;
+
+     CandidateController(CandidateService candidateService, CandidateRepository candidateRepository) {
+        this.candidateService = candidateService;
+         this.candidateRepository = candidateRepository;
+     }
+
+
     @PostMapping("")
-    public void create(@Valid @RequestBody CandidateEntity candidateEntity) {
-        System.out.println("x:Candidato");
-        System.out.println(candidateEntity);
-        
+    CandidateEntity create (@Valid  @RequestBody CandidateEntity candidateEntity){
+        return candidateService.create(candidateEntity);
+
 
     }
 
