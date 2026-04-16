@@ -25,3 +25,6 @@ A **Gestão de Vagas API** foi desenvolvida para consolidar conceitos centrais d
 - **H2 Database**
 - **PostgreSQL**
 - **Lombok**
+## 🏛️ Arquitetura
+A aplicação está organizada com separação de responsabilidades entre:
+- controller, service, repository, entity
