@@ -17,3 +17,11 @@ A **Gestão de Vagas API** foi desenvolvida para consolidar conceitos centrais d
 - Atualização de dados de candidatos
 - Validação de entrada com Bean Validation
 - Tratamento global de exceções
+## 🧱 Stack utilizada
+- **Java 25**
+- **Spring Boot 4.0.4**
+- **Spring Data JPA**
+- **Spring Validation**
+- **H2 Database**
+- **PostgreSQL**
+- **Lombok**
