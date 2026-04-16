@@ -40,3 +40,5 @@ mvn spring-boot:run
 ### Acesso local
 - Aplicação: http://localhost:8080
 - Console H2: http://localhost:8080/h2-console
+## 👨‍💻 Autor
+Desenvolvido por Vinícius Oliveira Gonçalves.
