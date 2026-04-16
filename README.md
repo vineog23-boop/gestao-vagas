@@ -28,3 +28,15 @@ A **Gestão de Vagas API** foi desenvolvida para consolidar conceitos centrais d
 ## 🏛️ Arquitetura
 A aplicação está organizada com separação de responsabilidades entre:
 - controller, service, repository, entity
+## ⚙️ Configuração atual
+A configuração padrão do projeto está preparada para rodar localmente com **H2 em memória**.
+## ▶️ Como executar
+```bash
+git clone https://github.com/vineog23-boop/gestao-vagas.git
+cd gestao-vagas
+mvn clean install
+mvn spring-boot:run
+```
+### Acesso local
+- Aplicação: http://localhost:8080
+- Console H2: http://localhost:8080/h2-console
