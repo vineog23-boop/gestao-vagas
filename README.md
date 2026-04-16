@@ -9,3 +9,11 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/Lombok-CC0000?style=for-the-badge" alt="Lombok"/>
 </p>
+## 📌 Sobre o projeto
+A **Gestão de Vagas API** foi desenvolvida para consolidar conceitos centrais do desenvolvimento backend com Java e Spring Boot.
+## ✅ O que o projeto cobre hoje
+- Cadastro de candidatos
+- Listagem de candidatos
+- Atualização de dados de candidatos
+- Validação de entrada com Bean Validation
+- Tratamento global de exceções
